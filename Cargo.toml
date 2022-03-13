@@ -16,7 +16,7 @@ derive_more = "0.99.11"
 serde = { version = "1.0", optional = true, features = ["derive"] }
 serde_repr = { version = "0.1.6", optional = true }
 doc-comment = "0.3.3"
-core-error = { version = "0.0.0", default-features = false }
+core-error = { git = "https://github.com/core-error/core-error.git", default-features = false }
 
 [dev-dependencies]
 version-sync = "0.9.2"
